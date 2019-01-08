@@ -1,6 +1,7 @@
 # BOSH CLI インストール
 
-https://github.com/cloudfoundry/bosh-cli/releasesをアクセスしてBOSH CLIをダウンロード
+https://github.com/cloudfoundry/bosh-cli/releases
+からBOSH CLIをダウンロード
 
 MAC の場合brewコマンドでもインストール可能です。
 
