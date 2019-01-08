@@ -45,6 +45,8 @@ Create an environmentから自分のIAAS環境を選択しスクリプトに使�
 [On Google Compute Platform](https://bosh.io/docs/init-google.html)
 
 
-例 vSphereの場合　https://bosh.io/docs/init-vsphere/　から
+例 vSphereの場合　https://bosh.io/docs/init-vsphere/　から variables (replace example values)をコピーして、deploy.shに貼り付けご使用のパラメーター値に変更してください。
+
+https://github.com/routingprotocol/BOSHiete/blob/master/deploy.sh
 
 
