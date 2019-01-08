@@ -49,4 +49,18 @@ Create an environmentから自分のIAAS環境を選択しスクリプトに使�
 
 https://github.com/routingprotocol/BOSHiete/blob/master/deploy.sh
 
+# CloudコンフィグCPIの作成
 
+https://bosh.io/docs/cloud-config/ にてお使いのIAAS環境を選択し
+
+[See AWS CPI example](https://bosh.io/docs/aws-cpi/#cloud-config)
+[See Azure CPI example](https://bosh.io/docs/azure-cpi/#cloud-config)
+[See OpenStack CPI example](https://bosh.io/docs/openstack-cpi/#cloud-config)
+[See SoftLayer CPI example](https://bosh.io/docs/softlayer-cpi/#cloud-config)
+[See Google Cloud Platform CPI example](https://bosh.io/docs/google-cpi/#cloud-config)
+[See vSphere CPI example](https://bosh.io/docs/vsphere-cpi/#cloud-config)
+
+例 vSphereの場合　https://bosh.io/docs/vsphere-cpi/#cloud-config 　から Example Cloud Config内容をコピーして、cloud-config.yml  
+に貼り付けご使用のパラメーター値に変更してください。
+
+https://github.com/routingprotocol/BOSHiete/blob/master/cloud-config.yml 
