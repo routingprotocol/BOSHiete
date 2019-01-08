@@ -1,0 +1,17 @@
+networks:
+- name: default
+  type: manual
+  subnets:
+  - range: 10.10.0.0/24
+    gateway: 10.10.0.1
+    az: z1
+    dns: [8.8.8.8]
+    cloud_properties:
+      name: vm-net1 #vSphere Port Group Name
+  - range: 10.10.1.0/24
+    gateway: 10.10.1.1
+   reserved: [ 10.10.1.1-10.10.1.200, 10.10.1.220-10.10.1.254 ] #Not available to Bosh to assign
+    az: z1
+    dns: [8.8.8.8]
+    cloud_properties:
+      name: vm-net2
