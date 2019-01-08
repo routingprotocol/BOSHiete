@@ -64,3 +64,8 @@ https://bosh.io/docs/cloud-config/ にてお使いのIAAS環境を選択し
 に貼り付けご使用のパラメーター値に変更してください。
 
 https://github.com/routingprotocol/BOSHiete/blob/master/cloud-config.yml 
+
+
+# NetworkコンフィグをCloudコンフィグとは別に作成
+
+https://github.com/routingprotocol/BOSHiete/blob/master/network-config.yml
